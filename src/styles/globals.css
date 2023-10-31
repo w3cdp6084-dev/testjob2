@@ -86,13 +86,24 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+nav, aside {
+  width: 25%;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+main {
+  width: 50%;
+  padding: 1rem;
 }
 
 a {
